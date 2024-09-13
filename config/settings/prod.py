@@ -10,7 +10,7 @@ DEBUG = env.bool("DEBUG")
 
 ALLOWED_HOSTS = ["minidjangorailway-production.up.railway.app"]
 CSRF_TRUSTED_ORIGINS = [
-    "https://mini-django-railway-production.up.railway.app"
+    "https://minidjangorailway-production.up.railway.app"
 ]  # modify later
 
 MIDDLEWARE = MIDDLEWARE + ["whitenoise.middleware.WhiteNoiseMiddleware"]
